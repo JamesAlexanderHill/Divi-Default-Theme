@@ -8,7 +8,7 @@
   <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header>
-      <div>
+      <div class="page-width">
         <h1><a href="<?php echo get_bloginfo('url'); ?>"><?php echo get_bloginfo('name'); ?></a></h1>
         <?php
         wp_nav_menu(
